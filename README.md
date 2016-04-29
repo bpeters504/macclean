@@ -3,7 +3,7 @@ Simple GTK 3 application to remove seperating characters from MAC addresses
 
 **To build and install this program for single user:**
 
-* ./autogen.sh --prefix=/home/your_username/.local`
+* `./autogen.sh --prefix=/home/your_username/.local`
 * `make install`
 
 **To build and install this program system wide:**
