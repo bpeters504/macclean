@@ -61,7 +61,6 @@ class EntryWindow(Gtk.Window):
 def main():
 
     def gtk_style():
-        pwd = os.path.dirname(os.path.realpath(__file__))
         cssProvider = Gtk.CssProvider()
         Gtk.StyleContext.add_provider_for_screen(
             Gdk.Screen.get_default(),
