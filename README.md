@@ -3,7 +3,7 @@ Simple GTK 3 application to remove seperating characters from MAC addresses
 
 **To build and install this program for single user:**
 
-* `./autogen.sh --prefix=/home/your_username/.local`
+* `./autogen.sh --prefix=$HOME.local`
 * `make install`
 
 **To build and install this program system wide:**
@@ -24,8 +24,8 @@ Simple GTK 3 application to remove seperating characters from MAC addresses
 	* Makefile.in
 	* Makefile
 
-Running "make install", installs the application in `/home/your_username/.local/bin`
-and installs the macclean.desktop file in `/home/your_username/.local/share/applications`
+Running "make install", installs the application in `$HOME/.local/bin`
+and installs the macclean.desktop file in `$HOME/.local/share/applications`
 or `/usr/local/bin and /usr/local/share/applications` for system wide installs.
 
 You can now run the application by typing "MacClean" in the Overview.
